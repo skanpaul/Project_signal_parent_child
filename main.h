@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.h                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ski <ski@student.42.fr>                    +#+  +:+       +#+        */
+/*   By: sorakann <sorakann@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/18 16:00:42 by ski               #+#    #+#             */
-/*   Updated: 2022/04/18 16:46:03 by ski              ###   ########.fr       */
+/*   Updated: 2022/04/18 22:49:28 by sorakann         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@
 # define MSG_PARENT_SIGQUIT		"parent receive SIGQUIT [ctrl-\\\n]"
 // -------------------------
 # define MSG_CHILD_SIGINT		"child receive SIGINT [ctrl-C]\n"
-# define MSG_CHILD_SIGQUIT		"child receive SIGQUIT [ctrl-\\\n]"
+# define MSG_CHILD_SIGQUIT		"child receive SIGQUIT [ctrl-\\]\n"
 /* ************************************************************************** */
 typedef struct s_data
 {
